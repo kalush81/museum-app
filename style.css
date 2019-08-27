@@ -1,8 +1,24 @@
+
 body {
     background: #FFBA00;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
 }
+
+main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+
 .artObject {
     max-width: 80%;
     max-height: 20rem;
-    margin: 1rem;
+    margin: auto;
 }
+
+h1 {
+    margin: 3rem 1rem 6rem 1rem;
+  }
