@@ -1,0 +1,8 @@
+body {
+    background: #FFBA00;
+}
+.artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+}
