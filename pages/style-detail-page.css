@@ -1,0 +1,36 @@
+section {
+    text-align: center;
+}
+
+body {
+    background: rgb(197,136,237);
+background: linear-gradient(90deg, rgba(197,136,237,1) 17%, rgba(255,89,89,1) 67%, rgba(252,176,69,1) 100%);
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+section img {
+    width: 70%;
+    min-width: 300px;
+}
+
+.form {
+    margin: 5rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 50%;
+    min-width: 300px;
+    justify-content: space-around;
+    border: 2px solid sandybrown;
+}
+label[for] {
+    display: block;
+}
+label[for] ~ * {
+    width: 70%;
+}
+footer {
+    text-align: center;
+}
